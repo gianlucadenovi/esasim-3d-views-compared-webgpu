@@ -38,6 +38,12 @@ An [EsaSim](https://esacode.com/) project of the workspace Gianluca De Novi's wo
 
 ### Blueprints in this repository
 
-None yet.
+- [Compare the views](blueprints/compare-the-views.json) · 4 blocks
 
-Keys pasted in blocks (secret settings) are not saved here. Datasets, results and the team stay in EsaSim.
+### Assets
+
+The files the project's views draw with (3D models, textures, sounds), in [assets/](assets/):
+
+- [textures/esacode-logo.png](assets/textures/esacode-logo.png) · 25 KB
+
+Keys pasted in blocks (secret settings) are not saved here, nor are the team and the results of runs.

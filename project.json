@@ -10,6 +10,13 @@
     "cover": "c2",
     "cover_file": "assets/cover.svg",
     "readme": "README.md",
-    "blueprints": [],
+    "blueprints": [
+        {
+            "name": "Compare the views",
+            "file": "blueprints/compare-the-views.json",
+            "published_version": 0,
+            "nodes": 4
+        }
+    ],
     "blocks": []
 }
