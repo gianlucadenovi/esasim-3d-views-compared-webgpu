@@ -6,7 +6,7 @@
     "name": "Compare the views",
     "description": "Two public-domain models in the 3D view and in the WebGPU view (studio and sky)",
     "published_version": 0,
-    "updated": "2026-11-23 16:52:23",
+    "updated": "2026-11-23 16:53:09",
     "graph": {
         "nodes": [
             {
@@ -102,20 +102,20 @@
                 "classic": {
                     "x": 0,
                     "y": 0,
-                    "w": 12,
-                    "h": 12
+                    "w": 4,
+                    "h": 21
                 },
                 "gpu_studio": {
-                    "x": 0,
-                    "y": 12,
-                    "w": 8,
-                    "h": 9
+                    "x": 4,
+                    "y": 0,
+                    "w": 4,
+                    "h": 21
                 },
                 "gpu_sky": {
-                    "x": 0,
-                    "y": 21,
-                    "w": 8,
-                    "h": 9
+                    "x": 8,
+                    "y": 0,
+                    "w": 4,
+                    "h": 21
                 }
             }
         }
