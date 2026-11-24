@@ -42,11 +42,29 @@ An [EsaSim](https://esacode.com/) project of the workspace Gianluca De Novi's wo
 
 ### Assets
 
-The files the project's views draw with (3D models, textures, sounds), in [assets/](assets/):
+The files the project's views draw with (3D models, textures, sounds), in [assets/](assets/); the large ones are files of the release `esasim-files`:
 
-- [models/LICENCE-AND-CREDIT.txt](assets/models/LICENCE-AND-CREDIT.txt) · 391 B
+- `models/ABeautifulGame.glb` (release file asset--models--ABeautifulGame.glb) · 41 MB
+- [models/AnisotropyBarnLamp.glb](assets/models/AnisotropyBarnLamp.glb) · 7.5 MB
+- [models/BoomBox.glb](assets/models/BoomBox.glb) · 10 MB
+- [models/CommercialRefrigerator.glb](assets/models/CommercialRefrigerator.glb) · 9.7 MB
+- [models/Corset.glb](assets/models/Corset.glb) · 13 MB
+- [models/DiffuseTransmissionPlant.glb](assets/models/DiffuseTransmissionPlant.glb) · 5.5 MB
+- [models/DiffuseTransmissionTeacup.glb](assets/models/DiffuseTransmissionTeacup.glb) · 4.6 MB
+- [models/Fox.glb](assets/models/Fox.glb) · 159 KB
+- [models/GlamVelvetSofa.glb](assets/models/GlamVelvetSofa.glb) · 3.0 MB
+- [models/IridescenceLamp.glb](assets/models/IridescenceLamp.glb) · 3.9 MB
+- [models/IridescentDishWithOlives.glb](assets/models/IridescentDishWithOlives.glb) · 5.5 MB
+- [models/LICENCE-AND-CREDIT.txt](assets/models/LICENCE-AND-CREDIT.txt) · 3.4 KB
+- [models/Lantern.glb](assets/models/Lantern.glb) · 9.1 MB
+- [models/MaterialsVariantsShoe.glb](assets/models/MaterialsVariantsShoe.glb) · 7.5 MB
+- `models/MosquitoInAmber.glb` (release file asset--models--MosquitoInAmber.glb) · 23 MB
 - [models/SheenChair.glb](assets/models/SheenChair.glb) · 3.9 MB
+- [models/SheenWoodLeatherSofa.glb](assets/models/SheenWoodLeatherSofa.glb) · 9.6 MB
+- [models/SpecularSilkPouf.glb](assets/models/SpecularSilkPouf.glb) · 4.4 MB
 - [models/ToyCar.glb](assets/models/ToyCar.glb) · 5.2 MB
+- [models/USDShaderBallForGltf.glb](assets/models/USDShaderBallForGltf.glb) · 1.3 MB
+- [models/WaterBottle.glb](assets/models/WaterBottle.glb) · 8.6 MB
 - [textures/esacode-logo.png](assets/textures/esacode-logo.png) · 25 KB
 
 Keys pasted in blocks (secret settings) are not saved here, nor are the team and the results of runs.

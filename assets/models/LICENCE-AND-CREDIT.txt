@@ -1,7 +1,27 @@
-Licence: CC0 1.0 (public domain)
+Licence: CC0-1.0 and CC-BY-4.0 (each model below)
 
-Khronos glTF Sample Assets: Toy Car (initial model by Guido Odendahl) and Sheen Chair (Wayfair, LLC), both CC0 1.0.
+Khronos glTF Sample Assets (github.com/KhronosGroup/glTF-Sample-Assets).
+CC0 1.0: Toy Car (Guido Odendahl, Eric Chadwick); Sheen Chair (Eric Chadwick); Diffuse Transmission Teacup (Polyhaven.com and Eric Chadwick); Lantern (sbtron, Frank Galligan); Water Bottle, Boom Box, Corset (Microsoft).
+CC BY 4.0: A Beautiful Game (MaterialX Project, Ed Mackey); Anisotropy Barn Lamp, Iridescence Lamp, Iridescent Dish with Olives, Specular Silk Pouf, Glam Velvet Sofa (Eric Chadwick); Commercial Refrigerator (Eric Chadwick, Sean Thomas); Diffuse Transmission Plant (Eric Chadwick; CC0 parts by Rico Cilliers); Materials Variants Shoe (Shopify); Mosquito in Amber (Loic Norgeot, Sketchfab); Sheen Wood Leather Sofa (Eric Chadwick; CC0 parts by Fran Calvente); USD Shader Ball for glTF (Chris Rydalch, Andre Mazzone, Thomas Anagnostou, Eric Chadwick); Fox (PixelMannen CC0; tomkranis, AsoboStudio and scurest CC BY 4.0).
 
 Sources:
 https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/Models/ToyCar/glTF-Binary/ToyCar.glb
 https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/Models/SheenChair/glTF-Binary/SheenChair.glb
+https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/Models/ABeautifulGame/glTF-Binary/ABeautifulGame.glb
+https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/Models/AnisotropyBarnLamp/glTF-Binary/AnisotropyBarnLamp.glb
+https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/Models/CommercialRefrigerator/glTF-Binary/CommercialRefrigerator.glb
+https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/Models/DiffuseTransmissionTeacup/glTF-Binary/DiffuseTransmissionTeacup.glb
+https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/Models/DiffuseTransmissionPlant/glTF-Binary/DiffuseTransmissionPlant.glb
+https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/Models/IridescenceLamp/glTF-Binary/IridescenceLamp.glb
+https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/Models/IridescentDishWithOlives/glTF-Binary/IridescentDishWithOlives.glb
+https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/Models/MaterialsVariantsShoe/glTF-Binary/MaterialsVariantsShoe.glb
+https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/Models/MosquitoInAmber/glTF-Binary/MosquitoInAmber.glb
+https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/Models/SheenWoodLeatherSofa/glTF-Binary/SheenWoodLeatherSofa.glb
+https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/Models/SpecularSilkPouf/glTF-Binary/SpecularSilkPouf.glb
+https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/Models/USDShaderBallForGltf/glTF-Binary/USDShaderBallForGltf.glb
+https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/Models/GlamVelvetSofa/glTF-Binary/GlamVelvetSofa.glb
+https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/Models/Lantern/glTF-Binary/Lantern.glb
+https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/Models/WaterBottle/glTF-Binary/WaterBottle.glb
+https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/Models/BoomBox/glTF-Binary/BoomBox.glb
+https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/Models/Fox/glTF-Binary/Fox.glb
+https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/Models/Corset/glTF-Binary/Corset.glb

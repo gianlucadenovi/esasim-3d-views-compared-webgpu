@@ -3,21 +3,137 @@
         "kind": "files",
         "version": 1
     },
-    "release": null,
+    "release": "esasim-files",
     "datasets": [],
     "assets": [
         {
+            "path": "models/ABeautifulGame.glb",
+            "size": 42977928,
+            "sha256": "bd7133b4b322aae97c589b8839dae8155ad2546acb35ae32a127e722a959d007",
+            "zip": "assets/models/ABeautifulGame.glb",
+            "in": "release",
+            "tag": "esasim-files",
+            "asset": "asset--models--ABeautifulGame.glb"
+        },
+        {
+            "path": "models/AnisotropyBarnLamp.glb",
+            "size": 7833440,
+            "sha256": "0e728826c30bd6f3a18a0911db9f5f9ddc2dafa8e20bf9c3312c9625d1e32a24",
+            "zip": "assets/models/AnisotropyBarnLamp.glb",
+            "in": "repo"
+        },
+        {
+            "path": "models/BoomBox.glb",
+            "size": 10614184,
+            "sha256": "f8b918445ebdd006768232205a62f5182d2208ca57f84c6ccc084943c0bc8f15",
+            "zip": "assets/models/BoomBox.glb",
+            "in": "repo"
+        },
+        {
+            "path": "models/CommercialRefrigerator.glb",
+            "size": 10131180,
+            "sha256": "ef8da8b144e650c277ac953e6d9e50ac1689ff1ee88c2c5bd9551ae8bccb6065",
+            "zip": "assets/models/CommercialRefrigerator.glb",
+            "in": "repo"
+        },
+        {
+            "path": "models/Corset.glb",
+            "size": 13491364,
+            "sha256": "9582c0dc0dee813be77f60e6ddf7213987c7e11497bf3cc66fd7b18957ae0d26",
+            "zip": "assets/models/Corset.glb",
+            "in": "repo"
+        },
+        {
+            "path": "models/DiffuseTransmissionPlant.glb",
+            "size": 5759100,
+            "sha256": "1748be8847e24bdd5cb6c5ac2bfd0afe8f11efc4f85091148550555e47c7ee83",
+            "zip": "assets/models/DiffuseTransmissionPlant.glb",
+            "in": "repo"
+        },
+        {
+            "path": "models/DiffuseTransmissionTeacup.glb",
+            "size": 4795028,
+            "sha256": "d4f567186fea262819aac6664cb9d7cef7f4600406038046771a69e10363935b",
+            "zip": "assets/models/DiffuseTransmissionTeacup.glb",
+            "in": "repo"
+        },
+        {
+            "path": "models/Fox.glb",
+            "size": 162852,
+            "sha256": "d97044e701822bac5a62696459b27d7b375aada5de8574ed4362edbba94771f7",
+            "zip": "assets/models/Fox.glb",
+            "in": "repo"
+        },
+        {
+            "path": "models/GlamVelvetSofa.glb",
+            "size": 3149844,
+            "sha256": "67202c74a1a33377771f162dc7fad612a6c9bd51ee15124c488e9851d9ac5266",
+            "zip": "assets/models/GlamVelvetSofa.glb",
+            "in": "repo"
+        },
+        {
+            "path": "models/IridescenceLamp.glb",
+            "size": 4083912,
+            "sha256": "17cfdc79ec9e38fadb28db159734c5f9592ca423977b546e5057e350ba29ff13",
+            "zip": "assets/models/IridescenceLamp.glb",
+            "in": "repo"
+        },
+        {
+            "path": "models/IridescentDishWithOlives.glb",
+            "size": 5742828,
+            "sha256": "1540b4a36b790a907f4824cfe848ba481b3da3cc8070172b7b3ba178f78a7ed1",
+            "zip": "assets/models/IridescentDishWithOlives.glb",
+            "in": "repo"
+        },
+        {
             "path": "models/LICENCE-AND-CREDIT.txt",
-            "size": 391,
-            "sha256": "481ac6eba3da6f96addac83423702710ecab00b241b81e1eeada1af20987c981",
+            "size": 3515,
+            "sha256": "73011cd3834b9de866e0b6382a48c625da8e0ad516bd5addf360e3f0af6d94f0",
             "zip": "assets/models/LICENCE-AND-CREDIT.txt",
             "in": "repo"
+        },
+        {
+            "path": "models/Lantern.glb",
+            "size": 9564264,
+            "sha256": "a79458c4b02d695187a952f23a63b8bf278e7bc3d316a3c2a314f2d6974181f1",
+            "zip": "assets/models/Lantern.glb",
+            "in": "repo"
+        },
+        {
+            "path": "models/MaterialsVariantsShoe.glb",
+            "size": 7833592,
+            "sha256": "e1d7cb190382111e5a5b37b51e9a7f007f7eb2ab1b6185e0188e8d0a0d1265a7",
+            "zip": "assets/models/MaterialsVariantsShoe.glb",
+            "in": "repo"
+        },
+        {
+            "path": "models/MosquitoInAmber.glb",
+            "size": 24229904,
+            "sha256": "1c0b49000650e8a8c00d69bc8d64e46d33527871a47d74e4f2278887325cc35f",
+            "zip": "assets/models/MosquitoInAmber.glb",
+            "in": "release",
+            "tag": "esasim-files",
+            "asset": "asset--models--MosquitoInAmber.glb"
         },
         {
             "path": "models/SheenChair.glb",
             "size": 4125648,
             "sha256": "f0af2a2b102d28d540236306ae19f8fb36842df76bd38cf76f063f9bd2853399",
             "zip": "assets/models/SheenChair.glb",
+            "in": "repo"
+        },
+        {
+            "path": "models/SheenWoodLeatherSofa.glb",
+            "size": 10107912,
+            "sha256": "5349e042ad41e695e89f1110230c4ee0c75b2bc62ef830c7016be6ecf665bfb6",
+            "zip": "assets/models/SheenWoodLeatherSofa.glb",
+            "in": "repo"
+        },
+        {
+            "path": "models/SpecularSilkPouf.glb",
+            "size": 4632512,
+            "sha256": "a028bc6a7ac8981044fba414c1de633ac775b53602ad386f8ece74aec81d1006",
+            "zip": "assets/models/SpecularSilkPouf.glb",
             "in": "repo"
         },
         {
@@ -28,6 +144,20 @@
             "in": "repo"
         },
         {
+            "path": "models/USDShaderBallForGltf.glb",
+            "size": 1319652,
+            "sha256": "ab123a15d70c4553adcabb16bef45587ad17e3c00da6b54640624a7287a8b52e",
+            "zip": "assets/models/USDShaderBallForGltf.glb",
+            "in": "repo"
+        },
+        {
+            "path": "models/WaterBottle.glb",
+            "size": 8966700,
+            "sha256": "b337e526fd6a162013c2984aeec163f5fbb4f717252724dfc3f3458bd51df94b",
+            "zip": "assets/models/WaterBottle.glb",
+            "in": "repo"
+        },
+        {
             "path": "textures/esacode-logo.png",
             "size": 25614,
             "sha256": "5165bee68f3a011323761eb87cfae64a9f5076c092c6f27f2627a1a1820c1091",
@@ -35,5 +165,5 @@
             "in": "repo"
         }
     ],
-    "saved": "2026-11-24T03:14:23+00:00"
+    "saved": "2026-11-24T04:08:35+00:00"
 }
