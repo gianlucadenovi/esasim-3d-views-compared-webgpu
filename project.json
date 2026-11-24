@@ -14,7 +14,7 @@
         {
             "name": "Compare the views",
             "file": "blueprints/compare-the-views.json",
-            "published_version": 0,
+            "published_version": 1,
             "nodes": 4
         }
     ],

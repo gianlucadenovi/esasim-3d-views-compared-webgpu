@@ -38,7 +38,7 @@ An [EsaSim](https://esacode.com/) project of the workspace Gianluca De Novi's wo
 
 ### Blueprints in this repository
 
-- [Compare the views](blueprints/compare-the-views.json) · 4 blocks
+- [Compare the views](blueprints/compare-the-views.json) · 4 blocks · version 1
 
 ### Assets
 
