@@ -6,7 +6,7 @@
     "name": "Compare the renderers",
     "description": "Two public-domain models in the 3D view and in the WebGPU view (studio and sky)",
     "published_version": 3,
-    "updated": "2026-11-24 06:58:53",
+    "updated": "2026-11-24 07:03:35",
     "graph": {
         "nodes": [
             {
@@ -35,7 +35,7 @@
                 "y": -200,
                 "params": {
                     "first": "ToyCar",
-                    "render": true
+                    "render": false
                 },
                 "title": "Models"
             },
@@ -76,19 +76,21 @@
                 "x": 360,
                 "y": 400,
                 "params": {
-                    "quality": "standard",
+                    "engine": "EsaSim tracer",
+                    "quality": "draft",
                     "look": "studio",
                     "materials": "as authored",
                     "what": "one picture",
                     "only": "ToyCar",
                     "follow": true,
-                    "width": 1280,
-                    "height": 720,
+                    "width": 640,
+                    "height": 360,
+                    "device": "CPU",
                     "frames_format": "png",
                     "video": "none",
                     "live": true
                 },
-                "title": "Ray-traced render (Cycles)"
+                "title": "Ray-traced render (EsaSim tracer)"
             },
             {
                 "id": "render_view",
@@ -99,7 +101,7 @@
                     "size": "large",
                     "live": "fill the view"
                 },
-                "title": "Ray-traced render"
+                "title": "Ray-traced render (EsaSim tracer)"
             }
         ],
         "edges": [
