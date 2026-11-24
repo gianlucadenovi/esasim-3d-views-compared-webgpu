@@ -1,5 +1,5 @@
 <!-- esasim: cover -->
-![3D views compared · WebGPU](assets/cover.svg)
+![3D views compared · WebGPU](assets/cover.jpg)
 <!-- /esasim: cover -->
 
 # 3D views compared · WebGPU
@@ -44,6 +44,7 @@ An [EsaSim](https://esacode.com/) project of the workspace Gianluca De Novi's wo
 
 The files the project's views draw with (3D models, textures, sounds), in [assets/](assets/); the large ones are files of the release `esasim-files`:
 
+- [covers/a238380c-9134-4db8-971d-bb9573803063.png](assets/covers/a238380c-9134-4db8-971d-bb9573803063.png) · 964 KB
 - `models/ABeautifulGame.glb` (release file asset--models--ABeautifulGame.glb) · 41 MB
 - [models/AnisotropyBarnLamp.glb](assets/models/AnisotropyBarnLamp.glb) · 7.5 MB
 - [models/BoomBox.glb](assets/models/BoomBox.glb) · 10 MB

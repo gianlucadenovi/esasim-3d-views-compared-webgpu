@@ -7,6 +7,13 @@
     "datasets": [],
     "assets": [
         {
+            "path": "covers/a238380c-9134-4db8-971d-bb9573803063.png",
+            "size": 987308,
+            "sha256": "7656ccca29c6eb2af0fae43928782573fe83db37a068589516a0afc384e11767",
+            "zip": "assets/covers/a238380c-9134-4db8-971d-bb9573803063.png",
+            "in": "repo"
+        },
+        {
             "path": "models/ABeautifulGame.glb",
             "size": 42977928,
             "sha256": "bd7133b4b322aae97c589b8839dae8155ad2546acb35ae32a127e722a959d007",
@@ -165,5 +172,5 @@
             "in": "repo"
         }
     ],
-    "saved": "2026-11-24T04:08:35+00:00"
+    "saved": "2026-11-24T17:13:40+00:00"
 }
