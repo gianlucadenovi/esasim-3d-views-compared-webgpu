@@ -6,7 +6,7 @@
     "name": "Compare the renderers",
     "description": "Two public-domain models in the 3D view and in the WebGPU view (studio and sky)",
     "published_version": 6,
-    "updated": "2026-11-24 14:40:42",
+    "updated": "2026-11-24 15:41:30",
     "graph": {
         "nodes": [
             {
@@ -51,7 +51,7 @@
                     "model_list": false,
                     "stage": "studio"
                 },
-                "title": "3D view (classic, WebGL)"
+                "title": "3D view (WebGL)"
             },
             {
                 "id": "gpu_studio",
@@ -66,7 +66,7 @@
                     "model": "ToyCar",
                     "link": true,
                     "own_list": false,
-                    "render_button": true,
+                    "render_button": false,
                     "render_follow": "model and camera"
                 },
                 "title": "3D view (WebGPU)"
