@@ -6,7 +6,7 @@
     "name": "Compare the renderers",
     "description": "Two public-domain models in the 3D view and in the WebGPU view (studio and sky)",
     "published_version": 4,
-    "updated": "2026-11-24 07:03:35",
+    "updated": "2026-11-24 07:13:09",
     "graph": {
         "nodes": [
             {
@@ -31,8 +31,8 @@
             {
                 "id": "list",
                 "type": "model-list",
-                "x": 360,
-                "y": -200,
+                "x": 740,
+                "y": -260,
                 "params": {
                     "first": "ToyCar",
                     "render": false
@@ -42,8 +42,8 @@
             {
                 "id": "classic",
                 "type": "viewer-3d",
-                "x": 360,
-                "y": 0,
+                "x": 740,
+                "y": -40,
                 "params": {
                     "models": "one at a time",
                     "first_model": "ToyCar",
@@ -56,7 +56,7 @@
             {
                 "id": "gpu_studio",
                 "type": "viewer-webgpu",
-                "x": 360,
+                "x": 740,
                 "y": 200,
                 "params": {
                     "lighting": "studio",
@@ -73,8 +73,8 @@
             {
                 "id": "render",
                 "type": "raytrace",
-                "x": 360,
-                "y": 400,
+                "x": 400,
+                "y": 396,
                 "params": {
                     "engine": "EsaSim tracer",
                     "quality": "draft",
@@ -95,8 +95,8 @@
             {
                 "id": "render_view",
                 "type": "image-view",
-                "x": 720,
-                "y": 400,
+                "x": 740,
+                "y": 440,
                 "params": {
                     "size": "large",
                     "live": "fill the view"
