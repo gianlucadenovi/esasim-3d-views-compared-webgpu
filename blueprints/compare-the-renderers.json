@@ -6,7 +6,7 @@
     "name": "Compare the renderers",
     "description": "Two public-domain models in the 3D view and in the WebGPU view (studio and sky)",
     "published_version": 1,
-    "updated": "2026-11-24 04:03:12",
+    "updated": "2026-11-24 04:05:02",
     "graph": {
         "nodes": [
             {
@@ -157,6 +157,12 @@
                     "y": 0,
                     "w": 4,
                     "h": 21
+                },
+                "render_view": {
+                    "x": 0,
+                    "y": 21,
+                    "w": 6,
+                    "h": 8
                 }
             }
         }
