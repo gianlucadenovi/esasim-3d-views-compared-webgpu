@@ -14,7 +14,7 @@
         {
             "name": "Compare the renderers",
             "file": "blueprints/compare-the-renderers.json",
-            "published_version": 1,
+            "published_version": 2,
             "nodes": 5
         }
     ],
