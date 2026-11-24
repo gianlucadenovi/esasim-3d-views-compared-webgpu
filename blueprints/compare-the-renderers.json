@@ -6,7 +6,7 @@
     "name": "Compare the renderers",
     "description": "Two public-domain models in the 3D view and in the WebGPU view (studio and sky)",
     "published_version": 2,
-    "updated": "2026-11-24 06:32:28",
+    "updated": "2026-11-24 06:53:41",
     "graph": {
         "nodes": [
             {
@@ -29,6 +29,17 @@
                 }
             },
             {
+                "id": "list",
+                "type": "model-list",
+                "x": 360,
+                "y": -200,
+                "params": {
+                    "first": "ToyCar",
+                    "render": true
+                },
+                "title": "Models"
+            },
+            {
                 "id": "classic",
                 "type": "viewer-3d",
                 "x": 360,
@@ -37,6 +48,7 @@
                     "models": "one at a time",
                     "first_model": "ToyCar",
                     "link_views": true,
+                    "model_list": false,
                     "stage": "studio"
                 },
                 "title": "3D view (classic, WebGL)"
@@ -49,9 +61,12 @@
                 "params": {
                     "lighting": "studio",
                     "materials": "as authored",
+                    "bloom": 0,
                     "camera": "orbit",
                     "model": "ToyCar",
-                    "link": true
+                    "link": true,
+                    "own_list": false,
+                    "render_button": true
                 },
                 "title": "3D view (WebGPU)"
             },
@@ -66,6 +81,7 @@
                     "materials": "as authored",
                     "what": "one picture",
                     "only": "ToyCar",
+                    "follow": true,
                     "width": 1280,
                     "height": 720,
                     "frames_format": "png",
@@ -81,12 +97,23 @@
                 "y": 400,
                 "params": {
                     "size": "large",
-                    "live": "on top"
+                    "live": "fill the view"
                 },
                 "title": "Ray-traced render"
             }
         ],
         "edges": [
+            {
+                "id": "models.files>list.models",
+                "from": {
+                    "node": "models",
+                    "port": "files"
+                },
+                "to": {
+                    "node": "list",
+                    "port": "models"
+                }
+            },
             {
                 "id": "models.files>classic.scene",
                 "from": {
@@ -118,17 +145,6 @@
                 "to": {
                     "node": "render",
                     "port": "scene"
-                }
-            },
-            {
-                "id": "render.frames>render_view.images",
-                "from": {
-                    "node": "render",
-                    "port": "frames"
-                },
-                "to": {
-                    "node": "render_view",
-                    "port": "images"
                 }
             },
             {
