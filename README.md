@@ -44,6 +44,9 @@ An [EsaSim](https://esacode.com/) project of the workspace Gianluca De Novi's wo
 
 The files the project's views draw with (3D models, textures, sounds), in [assets/](assets/):
 
+- [models/LICENCE-AND-CREDIT.txt](assets/models/LICENCE-AND-CREDIT.txt) · 391 B
+- [models/SheenChair.glb](assets/models/SheenChair.glb) · 3.9 MB
+- [models/ToyCar.glb](assets/models/ToyCar.glb) · 5.2 MB
 - [textures/esacode-logo.png](assets/textures/esacode-logo.png) · 25 KB
 
 Keys pasted in blocks (secret settings) are not saved here, nor are the team and the results of runs.

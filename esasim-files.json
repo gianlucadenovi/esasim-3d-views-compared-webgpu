@@ -7,6 +7,27 @@
     "datasets": [],
     "assets": [
         {
+            "path": "models/LICENCE-AND-CREDIT.txt",
+            "size": 391,
+            "sha256": "481ac6eba3da6f96addac83423702710ecab00b241b81e1eeada1af20987c981",
+            "zip": "assets/models/LICENCE-AND-CREDIT.txt",
+            "in": "repo"
+        },
+        {
+            "path": "models/SheenChair.glb",
+            "size": 4125648,
+            "sha256": "f0af2a2b102d28d540236306ae19f8fb36842df76bd38cf76f063f9bd2853399",
+            "zip": "assets/models/SheenChair.glb",
+            "in": "repo"
+        },
+        {
+            "path": "models/ToyCar.glb",
+            "size": 5422412,
+            "sha256": "01a60862de55cd4b9f3acfab0b0def86451800f9c42467fcd61052c16cb9838c",
+            "zip": "assets/models/ToyCar.glb",
+            "in": "repo"
+        },
+        {
             "path": "textures/esacode-logo.png",
             "size": 25614,
             "sha256": "5165bee68f3a011323761eb87cfae64a9f5076c092c6f27f2627a1a1820c1091",
@@ -14,5 +35,5 @@
             "in": "repo"
         }
     ],
-    "saved": "2026-11-23T16:46:18+00:00"
+    "saved": "2026-11-24T03:14:23+00:00"
 }

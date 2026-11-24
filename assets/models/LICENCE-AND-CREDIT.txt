@@ -1,0 +1,7 @@
+Licence: CC0 1.0 (public domain)
+
+Khronos glTF Sample Assets: Toy Car (initial model by Guido Odendahl) and Sheen Chair (Wayfair, LLC), both CC0 1.0.
+
+Sources:
+https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/Models/ToyCar/glTF-Binary/ToyCar.glb
+https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/Models/SheenChair/glTF-Binary/SheenChair.glb
