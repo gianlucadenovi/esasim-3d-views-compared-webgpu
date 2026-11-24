@@ -1,0 +1,164 @@
+{
+    "esasim": {
+        "kind": "blueprint",
+        "flow_id": 95
+    },
+    "name": "Compare the renderers",
+    "description": "Two public-domain models in the 3D view and in the WebGPU view (studio and sky)",
+    "published_version": 1,
+    "updated": "2026-11-24 04:03:12",
+    "graph": {
+        "nodes": [
+            {
+                "id": "models",
+                "type": "download-files",
+                "x": 0,
+                "y": 200,
+                "params": {
+                    "sources": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/Models/ToyCar/glTF-Binary/ToyCar.glb\nhttps://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/Models/SheenChair/glTF-Binary/SheenChair.glb\nhttps://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/Models/ABeautifulGame/glTF-Binary/ABeautifulGame.glb\nhttps://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/Models/AnisotropyBarnLamp/glTF-Binary/AnisotropyBarnLamp.glb\nhttps://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/Models/CommercialRefrigerator/glTF-Binary/CommercialRefrigerator.glb\nhttps://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/Models/DiffuseTransmissionTeacup/glTF-Binary/DiffuseTransmissionTeacup.glb\nhttps://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/Models/DiffuseTransmissionPlant/glTF-Binary/DiffuseTransmissionPlant.glb\nhttps://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/Models/IridescenceLamp/glTF-Binary/IridescenceLamp.glb\nhttps://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/Models/IridescentDishWithOlives/glTF-Binary/IridescentDishWithOlives.glb\nhttps://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/Models/MaterialsVariantsShoe/glTF-Binary/MaterialsVariantsShoe.glb\nhttps://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/Models/MosquitoInAmber/glTF-Binary/MosquitoInAmber.glb\nhttps://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/Models/SheenWoodLeatherSofa/glTF-Binary/SheenWoodLeatherSofa.glb\nhttps://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/Models/SpecularSilkPouf/glTF-Binary/SpecularSilkPouf.glb\nhttps://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/Models/USDShaderBallForGltf/glTF-Binary/USDShaderBallForGltf.glb\nhttps://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/Models/GlamVelvetSofa/glTF-Binary/GlamVelvetSofa.glb\nhttps://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/Models/Lantern/glTF-Binary/Lantern.glb\nhttps://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/Models/WaterBottle/glTF-Binary/WaterBottle.glb\nhttps://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/Models/BoomBox/glTF-Binary/BoomBox.glb\nhttps://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/Models/Fox/glTF-Binary/Fox.glb\nhttps://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/Models/Corset/glTF-Binary/Corset.glb",
+                    "keep": "*.glb",
+                    "licence": "CC0-1.0 and CC-BY-4.0 (each model below)",
+                    "credit": "Khronos glTF Sample Assets (github.com/KhronosGroup/glTF-Sample-Assets).\nCC0 1.0: Toy Car (Guido Odendahl, Eric Chadwick); Sheen Chair (Eric Chadwick); Diffuse Transmission Teacup (Polyhaven.com and Eric Chadwick); Lantern (sbtron, Frank Galligan); Water Bottle, Boom Box, Corset (Microsoft).\nCC BY 4.0: A Beautiful Game (MaterialX Project, Ed Mackey); Anisotropy Barn Lamp, Iridescence Lamp, Iridescent Dish with Olives, Specular Silk Pouf, Glam Velvet Sofa (Eric Chadwick); Commercial Refrigerator (Eric Chadwick, Sean Thomas); Diffuse Transmission Plant (Eric Chadwick; CC0 parts by Rico Cilliers); Materials Variants Shoe (Shopify); Mosquito in Amber (Loic Norgeot, Sketchfab); Sheen Wood Leather Sofa (Eric Chadwick; CC0 parts by Fran Calvente); USD Shader Ball for glTF (Chris Rydalch, Andre Mazzone, Thomas Anagnostou, Eric Chadwick); Fox (PixelMannen CC0; tomkranis, AsoboStudio and scurest CC BY 4.0)."
+                },
+                "title": "Download the 20 models",
+                "keep": {
+                    "folder": "models",
+                    "ports": [
+                        "files"
+                    ]
+                }
+            },
+            {
+                "id": "classic",
+                "type": "viewer-3d",
+                "x": 360,
+                "y": 0,
+                "params": {
+                    "models": "one at a time",
+                    "first_model": "ToyCar",
+                    "link_views": true,
+                    "stage": "studio"
+                },
+                "title": "3D view (classic, WebGL)"
+            },
+            {
+                "id": "gpu_studio",
+                "type": "viewer-webgpu",
+                "x": 360,
+                "y": 200,
+                "params": {
+                    "lighting": "studio",
+                    "materials": "as authored",
+                    "camera": "orbit",
+                    "model": "ToyCar",
+                    "link": true
+                },
+                "title": "3D view (WebGPU)"
+            },
+            {
+                "id": "render",
+                "type": "raytrace",
+                "x": 360,
+                "y": 400,
+                "params": {
+                    "quality": "standard",
+                    "look": "studio",
+                    "materials": "as authored",
+                    "what": "one picture",
+                    "only": "ToyCar",
+                    "width": 1280,
+                    "height": 720,
+                    "frames_format": "png",
+                    "video": "none",
+                    "live": true
+                },
+                "title": "Ray-traced render (Cycles)"
+            },
+            {
+                "id": "render_view",
+                "type": "image-view",
+                "x": 720,
+                "y": 400,
+                "params": {
+                    "size": "large",
+                    "live": "on top"
+                },
+                "title": "Ray-traced render"
+            }
+        ],
+        "edges": [
+            {
+                "id": "models.files>classic.scene",
+                "from": {
+                    "node": "models",
+                    "port": "files"
+                },
+                "to": {
+                    "node": "classic",
+                    "port": "scene"
+                }
+            },
+            {
+                "id": "models.files>gpu_studio.scene",
+                "from": {
+                    "node": "models",
+                    "port": "files"
+                },
+                "to": {
+                    "node": "gpu_studio",
+                    "port": "scene"
+                }
+            },
+            {
+                "id": "models.files>render.scene",
+                "from": {
+                    "node": "models",
+                    "port": "files"
+                },
+                "to": {
+                    "node": "render",
+                    "port": "scene"
+                }
+            },
+            {
+                "id": "render.frames>render_view.images",
+                "from": {
+                    "node": "render",
+                    "port": "frames"
+                },
+                "to": {
+                    "node": "render_view",
+                    "port": "images"
+                }
+            },
+            {
+                "id": "render.telemetry>render_view.images",
+                "from": {
+                    "node": "render",
+                    "port": "telemetry"
+                },
+                "to": {
+                    "node": "render_view",
+                    "port": "images"
+                }
+            }
+        ],
+        "notes": [],
+        "dash": {
+            "items": {
+                "classic": {
+                    "x": 0,
+                    "y": 0,
+                    "w": 4,
+                    "h": 21
+                },
+                "gpu_studio": {
+                    "x": 4,
+                    "y": 0,
+                    "w": 4,
+                    "h": 21
+                }
+            }
+        }
+    }
+}

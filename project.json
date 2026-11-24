@@ -12,10 +12,10 @@
     "readme": "README.md",
     "blueprints": [
         {
-            "name": "Compare the views",
-            "file": "blueprints/compare-the-views.json",
+            "name": "Compare the renderers",
+            "file": "blueprints/compare-the-renderers.json",
             "published_version": 1,
-            "nodes": 4
+            "nodes": 5
         }
     ],
     "blocks": []
